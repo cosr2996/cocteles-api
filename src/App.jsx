@@ -4,14 +4,13 @@ import { CategoriasProvider } from "./contex/CategoriasProvider";
 import { BebidasProvider } from "./contex/BebidasProvider";
 import ListadoBebidas from "./components/ListadoBebidas";
 import ModalBebida from "./components/ModalBebida";
+import Banner from "./components/Banner";
 
 function App() {
   return (
     <CategoriasProvider>
       <BebidasProvider>
-        <header className="py-5">
-          <h1>Buscador de Bebidas</h1>
-        </header>
+        <Banner/>
 
         <Container className="mt-5">
           <Formulario />

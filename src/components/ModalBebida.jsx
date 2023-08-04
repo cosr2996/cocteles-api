@@ -19,7 +19,7 @@ const ModalBebida = () => {
 
     return ingredientes;
   };
-
+  //TODO implementar la funcionalidad de bebidas favoritas en local storage
   return (
     <Modal
       show={modal}
